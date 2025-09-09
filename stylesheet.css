@@ -1,0 +1,14 @@
+
+.inside-rect {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("assets/cork_background.png") no-repeat center center;
+    background-size: cover;
+
+    border: 20px solid transparent;
+    padding: 15px;
+    border-image: url("assets/frame_border.png") 20 stretch;
+}
